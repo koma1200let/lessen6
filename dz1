@@ -1,0 +1,53 @@
+b=input("введите месяц")
+a=input("введите день")
+a=int(a)
+if a>=22 and a<=31 and b=="декабрь":
+    print(f"козерок")
+elif a<=19 and a>=1 and b=="январь":
+    print(f"козерок")
+elif a>=20 and a<=31 and b=="январь":
+    print(f"водолей")
+elif a<=18 and a>=1 and b=="февраль":
+    print(f"водолей")
+elif a>=19 and a<=28 and b=="февраль":
+    print(f"рыбы")
+elif a<=18 and a>=1 and b=="март":
+    print(f"рыбы")
+elif a>=20 and a<=31 and b=="март":
+    print(f"овен")
+elif a<=18 and a>=28 and b=="апрель":
+    print(f"овен")
+elif a>=20 and a<=31 and b=="апрель":
+    print(f"телец")
+elif a<=18 and a>=28 and b=="май":
+    print(f"телец")
+elif a>=20 and a<=31 and b=="май":
+    print(f"близнецы")
+elif a<=18 and a>=28 and b=="июнь":
+    print(f"близнецы")
+elif a>=20 and a<=31 and b=="июнь":
+    print(f"рак")
+elif a<=18 and a>=28 and b=="июль":
+    print(f"рак")
+elif a>=20 and a<=31 and b=="июль":
+    print(f"лев")
+elif a<=18 and a>=28 and b=="август":
+    print(f"лев")
+elif a>=20 and a<=31 and b=="август":
+    print(f"дева")
+elif a<=18 and a>=28 and b=="сентябрь":
+    print(f"дева")
+elif a>=20 and a<=31 and b=="сентябрь":
+    print(f"весы")
+elif a<=18 and a>=28 and b=="октябрь":
+    print(f"весы")
+elif a>=20 and a<=31 and b=="октябрь":
+    print(f"скорпион")
+elif a<=18 and a>=28 and b=="ноябрь":
+    print(f"скорпион")
+elif a>=20 and a<=31 and b=="ноябрь":
+    print(f"стрелец")
+elif a<=18 and a>=28 and b=="декабрь":
+    print(f"стрелец")
+else:
+    print(f"ошибка")
